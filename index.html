@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guesthouse Management System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #343a40;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+    .version {
+      font-size: 14px;
+      color: #888;
+      margin-top: -10px;
+    }
+    .download-button {
+      display: inline-block;
+      background-color: #007bff;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 5px;
+      font-size: 16px;
+      text-decoration: none;
+      margin: 20px 0;
+      transition: background-color 0.3s ease;
+    }
+    .download-button:hover {
+      background-color: #0056b3;
+    }
+    .app-image {
+      width: 200px;
+      margin-top: 20px;
+      
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #aaa;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Guesthouse Management System</h1>
+  <div class="version">Version 1.1.0</div>
+</header>
+
+<div class="container">
+    <img src="logo.jfif" alt="App Logo" class="app-image">
+    <p>Manage your guesthouse efficiently with our Java-based management system. Track bookings, generate reports, and simplify your workflow. Developed by Ibrahim Isaac.</p>
+    
+    <p style="font-size: 16px; color: #555;">
+      <strong>Note:</strong> Please ensure that the MySQL server is running before launching the application. You can use <em>WAMP</em> or <em>XAMPP</em> to host the MySQL service for proper data storage.
+    </p>
+  
+    <a href="https://drive.google.com/uc?export=download&id=1K181lQcvKz5jeAP4-qAYz38Q0MadcOPC" class="download-button" download>Download for Windows</a>
+  </div>
+  
+<footer>
+    &copy; <span id="year"></span> Ibrahim isaac. Daeyang University All rights reserved.
+  </footer>
+  
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  
+
+</body>
+</html>
